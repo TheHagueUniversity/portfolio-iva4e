@@ -1,0 +1,51 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+    font-family: "work Sans", sans-serif;
+    font-weight: 500;
+    background-repeat: no-repeat;
+}
+
+header{
+    background-color:lightseagreen;
+}
+
+.topnav {
+  background-color: midnightblue;
+  overflow: hidden;
+  top: 0px;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  font-family: 'Bebas Neue', cursive;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.topnav a {
+  font-family: 'Bebas Neue', cursive;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-right: 50px;
+}
+.topnav a:hover {
+  background-color: #F7D6E0;
+  color: black;
+}
+.topnav a.active {
+  background-color: #B46565;
+  color: white;
+  
+}
+
