@@ -1,133 +1,136 @@
-    /* Base
-    ------------------------------------*/
-    html {
-      box-sizing: border-box;
-    }
+/* Base
+------------------------------------*/
+html {
+    box-sizing: border-box;
+}
 
-    }
-    header {
-      display: block;
-    }
-
-
-    body {
-      color: #272B2F;
-      font-family: Lato, sans-serif;
-      font-size: 18px;
-      line-height: 20px;
-      letter-spacing: 0.025em;
-  	  margin: 0;
-      background-color: #fff;
-      word-wrap: break-word;
-    }
+}
+header {
+    display: block;
+}
 
 
-    a {
-      color: blue;
-      text-decoration: none;
-    }
-    img {
-      max-width: 350px;
-      height: auto;
-      border: 0;
-      vertical-align: middle;
-    }
-
-    h1 {
-      font-family: Lato, sans-serif;
-      font-size: 70px;
-      line-height: 1;
-    }
-
-    h2 {
-      font-family: Lato, sans-serif;
-      font-size: 25px;
-
-    }
-
-    .content-wrap {
-      width: 85%;
-    }
+body {
+    color: #272B2F;
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.025em;
+    margin: 0;
+    background-color: #fff;
+    word-wrap: break-word;
+}
 
 
-    /* Navigation
-    ------------------------------------*/
+a {
+    color: blue;
+    text-decoration: none;
+}
+img {
+    max-width: 350px;
+    height: auto;
+    border: 0;
+    vertical-align: middle;
+}
 
-    nav {
-      width: 100%;
-      position: fixed;
-      top: 0;
-      
-    }
+h1 {
+    font-family: Lato, sans-serif;
+    font-size: 70px;
+    line-height: 1;
+}
 
-    .navigation {
-      background: rgba(255, 255, 255, 1);
-      border-bottom: 10px solid #E4E7EB;
-      padding: 48px 64px;
-    }
+h2 {
+    font-family: Lato, sans-serif;
+    font-size: 25px;
 
-    nav a{
-      text-decoration: none;
-      padding: 14px 18px;
-      color: #343434;
-      font-size: 16px;
-    }
+}
 
-    nav a:hover{
-      background-color: #DBEAF7;
-      color: #8FBC8B;
-      border-radius: 85px;
-    }
-
-    /* Header
-    ------------------------------------*/
-
-    header h1 {
-      padding-top: 120px;
-
-    }
+.content-wrap {
+    width: 85%;
+}
 
 
-   /* About Me
-    ------------------------------------*/
-    .about-me {
-      background: #E6E6FA;
-      padding: 20px 60px 100px 20px;
-    }
+/* Navigation
+------------------------------------*/
+
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+
+}
+
+.navigation {
+    background: rgba(255, 255, 255, 1);
+    border-bottom: 10px solid #E4E7EB;
+    padding: 48px 64px;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 14px 18px;
+    color: #343434;
+    font-size: 16px;
+}
+
+nav a:hover{
+    background-color: #DBEAF7;
+    color: #8FBC8B;
+    border-radius: 85px;
+}
+
+/* Header
+------------------------------------*/
+
+header h1 {
+    padding-top: 120px;
+
+}
 
 
-    /* Education
-    ------------------------------------*/
+/* About Me
+------------------------------------*/
+.about-me {
+    background: #E6E6FA;
+    padding: 20px 60px 100px 20px;
+}
 
-    .education ul {
-      list-style-type: none;
-    }
 
-    .education {
-      background: #FF7F50;
-      padding: 20px 60px 100px 20px;
-    }
+/* Education
+------------------------------------*/
 
-   /* Work Experience
-    ------------------------------------*/
+.education ul {
+    list-style-type: none;
+}
 
-    .work {
-      background: #E6E6FA;
-      padding: 20px 60px 100px 20px;
-    }
+.education {
+    background: #FF7F50;
+    padding: 20px 60px 100px 20px;
+}
 
-   /* Projects
-    ------------------------------------*/
 
-    .projects {
-      background: #FF7F50;
-      padding: 20px 60px 100px 20px;
-    }
+/* Projects
+------------------------------------*/
 
-   /* Contact
-    ------------------------------------*/
+.project {
+    background: #E6E6FA;
+    padding: 20px 60px 100px 20px;
+}
 
-    .contact {
-      background: #E6E6FA;
-      padding: 20px 60px 100px 20px;
-    }
+/* Work Experience
+------------------------------------*/
+
+.work {
+    background: #FF7F50;
+    padding: 20px 60px 100px 20px;
+}
+
+/* Contact
+------------------------------------*/
+.contact ul {
+    list-style-type: none;
+}
+.contact {
+    background: #E6E6FA;
+    padding: 20px 60px 100px 20px;
+}
