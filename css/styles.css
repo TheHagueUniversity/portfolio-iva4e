@@ -66,7 +66,7 @@ nav {
     padding: 48px 64px;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     padding: 14px 18px;
     color: #343434;
@@ -108,22 +108,24 @@ header h1 {
     padding: 20px 60px 100px 20px;
 }
 
+/* Work Experience
+------------------------------------*/
+
+.work {
+    background: #E6E6FA;
+    padding: 20px 60px 100px 20px;
+}
+
 
 /* Projects
 ------------------------------------*/
 
 .project {
-    background: #E6E6FA;
-    padding: 20px 60px 100px 20px;
-}
-
-/* Work Experience
-------------------------------------*/
-
-.work {
     background: #FF7F50;
     padding: 20px 60px 100px 20px;
 }
+
+
 
 /* Contact
 ------------------------------------*/
@@ -145,8 +147,6 @@ header h1 {
     align-content: flex;
     border-color: bisque;
     border-style: double;
-    text-decoration: none;
-    text-align: left;
 }
 
 
@@ -186,3 +186,19 @@ header h1 {
     border-color: bisque;
     border-style: double;
 }
+
+.about  {  
+    background: #E6E6FA;
+    padding: 20px 60px 100px 20px;
+}
+
+.result {
+    background: #FF7F50;
+    padding: 20px 60px 100px 20px;
+}
+
+.project {
+    background: #E6E6FA
+}
+
+
