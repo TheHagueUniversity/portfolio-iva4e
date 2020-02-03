@@ -134,3 +134,55 @@ header h1 {
     background: #E6E6FA;
     padding: 20px 60px 100px 20px;
 }
+
+/*Project-1
+----------------------------------*/
+
+.project-1 {
+    float: inherit;
+    position:inherit;
+    margin-left: 0%;
+    align-content: flex;
+    border-color: bisque;
+    border-style: double;
+    text-decoration: none;
+    text-align: left;
+}
+
+
+/*Project-2
+----------------------------------*/
+
+.project-2 {
+    float: inherit;
+    position: inherit;
+    margin-left: 72%;
+    align-content: flex;
+    border-color: bisque;
+    border-style: double;
+}
+
+
+/*Project-3
+----------------------------------*/
+
+.project-3 {
+    float: inherit;
+    margin-left: 72%%;
+    align-content: flex;
+    border-color: bisque;
+    border-style: double;
+}
+
+
+/*Project-4
+----------------------------------*/
+
+.project-4 {
+    float:inherit;
+    position: inherit;
+    margin-left: 72%;
+    align-content: flex;
+    border-color: bisque;
+    border-style: double;
+}
