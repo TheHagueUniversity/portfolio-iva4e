@@ -1,51 +1,133 @@
-*{
-    margin:0px;
-    padding:0px;
-    box-sizing: border-box;
-}
+    /* Base
+    ------------------------------------*/
+    html {
+      box-sizing: border-box;
+    }
 
-body {
-    background-color: lightblue;
-    font-family: "work Sans", sans-serif;
-    font-weight: 500;
-    background-repeat: no-repeat;
-}
+    }
+    header {
+      display: block;
+    }
 
-header{
-    background-color:lightseagreen;
-}
 
-.topnav {
-  background-color: midnightblue;
-  overflow: hidden;
-  top: 0px;
-  position: fixed;
-  z-index: 1;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  font-family: 'Bebas Neue', cursive;
-  padding-bottom: 15px;
-  padding-top: 15px;
-}
+    body {
+      color: #272B2F;
+      font-family: Lato, sans-serif;
+      font-size: 18px;
+      line-height: 20px;
+      letter-spacing: 0.025em;
+  	  margin: 0;
+      background-color: #fff;
+      word-wrap: break-word;
+    }
 
-.topnav a {
-  font-family: 'Bebas Neue', cursive;
-  color: whitesmoke;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  margin-right: 50px;
-}
-.topnav a:hover {
-  background-color: #F7D6E0;
-  color: black;
-}
-.topnav a.active {
-  background-color: #B46565;
-  color: white;
-  
-}
 
+    a {
+      color: blue;
+      text-decoration: none;
+    }
+    img {
+      max-width: 350px;
+      height: auto;
+      border: 0;
+      vertical-align: middle;
+    }
+
+    h1 {
+      font-family: Lato, sans-serif;
+      font-size: 70px;
+      line-height: 1;
+    }
+
+    h2 {
+      font-family: Lato, sans-serif;
+      font-size: 25px;
+
+    }
+
+    .content-wrap {
+      width: 85%;
+    }
+
+
+    /* Navigation
+    ------------------------------------*/
+
+    nav {
+      width: 100%;
+      position: fixed;
+      top: 0;
+      
+    }
+
+    .navigation {
+      background: rgba(255, 255, 255, 1);
+      border-bottom: 10px solid #E4E7EB;
+      padding: 48px 64px;
+    }
+
+    nav a{
+      text-decoration: none;
+      padding: 14px 18px;
+      color: #343434;
+      font-size: 16px;
+    }
+
+    nav a:hover{
+      background-color: #DBEAF7;
+      color: #8FBC8B;
+      border-radius: 85px;
+    }
+
+    /* Header
+    ------------------------------------*/
+
+    header h1 {
+      padding-top: 120px;
+
+    }
+
+
+   /* About Me
+    ------------------------------------*/
+    .about-me {
+      background: #E6E6FA;
+      padding: 20px 60px 100px 20px;
+    }
+
+
+    /* Education
+    ------------------------------------*/
+
+    .education ul {
+      list-style-type: none;
+    }
+
+    .education {
+      background: #FF7F50;
+      padding: 20px 60px 100px 20px;
+    }
+
+   /* Work Experience
+    ------------------------------------*/
+
+    .work {
+      background: #E6E6FA;
+      padding: 20px 60px 100px 20px;
+    }
+
+   /* Projects
+    ------------------------------------*/
+
+    .projects {
+      background: #FF7F50;
+      padding: 20px 60px 100px 20px;
+    }
+
+   /* Contact
+    ------------------------------------*/
+
+    .contact {
+      background: #E6E6FA;
+      padding: 20px 60px 100px 20px;
+    }
